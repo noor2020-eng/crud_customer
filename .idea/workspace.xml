@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc4be32a-d24a-4fb1-9370-6228430606fb" name="Default Changelist" comment="" />
+    <list default="true" id="dc4be32a-d24a-4fb1-9370-6228430606fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Restrictions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/permissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_04_132036_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_05_064956_create_roles_permissions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/customersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/customersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customers/tables.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customers/tables.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teams/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teams/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teams/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teams/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teams/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teams/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +31,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,13 +141,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fLlRfEt8EAtoWz4LTs5vbLhKGZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -151,15 +180,18 @@
       <option name="presentableId" value="Default" />
       <updated>1596005246583</updated>
       <workItem from="1596005249813" duration="23702000" />
-      <workItem from="1596528469429" duration="7863000" />
+      <workItem from="1596528469429" duration="28656000" />
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="131" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596529434410">
+    <state x="423" y="131" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596620918843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="131" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596529434410" />
+    <state x="423" y="131" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596620918843" />
     <state x="473" y="131" key="FileChooserDialogImpl" timestamp="1596528250253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,10 +212,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596528389567" />
-    <state x="527" y="299" key="NewPhpFileDialog" timestamp="1596023241058">
+    <state x="527" y="299" key="NewPhpFileDialog" timestamp="1596621543757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="527" y="299" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596023241058" />
+    <state x="527" y="299" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596621543757" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596631058367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596631058367" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596628335254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596628335254" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596631556251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596631556251" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -34,19 +34,18 @@
 
 </head>
 <body class="page-body  page-fade" data-url="http://neon.dev">
-<a class="btn" href="#" >
+<a class="btn " href="{{url('/customers')}}" >
     <img src="{{asset('assets/images/thumb-1@2x.png')}}" alt="" class="img-circle" width="44" />
     Customer Admin
 </a>
 @guest
-    <a class="btn btn-black" href="{{url('/register')}}">Register</a>
+    <a class="btn btn-black " href="{{url('/register')}}">Register</a>
 
     <a class="btn btn-black" href="{{url('/login')}}" >Login</a>
 
 @else
     <a class="btn btn-black" href="{{url('/logout')}}" >Logout</a>
 
-    <a class="btn btn-black" href="{{url('/tables')}}" >Show tables</a>
 
 @endguest
 

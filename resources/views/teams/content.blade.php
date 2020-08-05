@@ -8,6 +8,5 @@
         </div>
         <hr/>
         <br/>
-        <!-- Footer -->
 @include('teams.footer')
 

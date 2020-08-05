@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Customer;
@@ -7,19 +6,18 @@ use Illuminate\Http\Request;
 
 class customersController extends Controller
 {
+
     public function index()
     {
         $customer = Customer::all();
         return view('customers.index',compact('customer'));
     }
 
-
     public function getData()
     {
         $customer = Customer::all();
         return view('customers.tables', compact('customer'));
     }
-
 
     public function create()
     {
@@ -41,9 +39,7 @@ class customersController extends Controller
         //$data['confpassword'] = bcrypt($request->confpassword);
         Customer::query()->create($data);
         return redirect(route('index'));
-
     }
-
 
     public function edit($id){
         $customer = customer::find($id);
@@ -51,7 +47,6 @@ class customersController extends Controller
             abort(404);  //page not found
         }
         return view('customers.edit',['customer' => $customer]);
-
     }
 
     public function update(Request $request, $id){
@@ -61,14 +56,11 @@ class customersController extends Controller
         $data['confpassword'] = bcrypt($request->confpassword);
         $customer->update($data);
         return redirect(route('index'));
-
     }
 
     public function delete($id){
         $customer = customer::findOrFail($id);
         $customer->delete();
         return redirect(route('index'));
-
     }
-
 }

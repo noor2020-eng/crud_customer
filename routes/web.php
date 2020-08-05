@@ -25,17 +25,18 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 Route::get('/content',function(){
     return view('teams.content');
 });
-Route::get('/tables', 'customersController@getData');
 //
 //Route::get('/tables',function(){
 //    return view('customers.tables');
 //});
+Route::get('/customers', 'customersController@index')->name('index');
 
-Route::group(['prefix' => 'customers'], function(){
-    Route::get('/', 'customersController@index')->name('index');
-    Route::get('/create', 'customersController@create')->name('create');
-    Route::post('/', 'customersController@store')->name('store');
-    Route::get('/{id}', 'customersController@edit')->name('edit');
-    Route::put('/{id}/update', 'customersController@update')->name('update');
-    Route::delete('/{id}', 'customersController@delete')->name('delete');
+Route::group(['middleware'=>'Admin'], function(){
+    Route::get('/customers/create', 'customersController@create')->name('create');
+    Route::post('/customers', 'customersController@store')->name('store');
+    Route::get('/customers/{id}', 'customersController@edit')->name('edit');
+    Route::put('/customers/{id}/update', 'customersController@update')->name('update');
+    Route::delete('/customers/{id}', 'customersController@delete')->name('delete');
+    Route::get('/tables', 'customersController@getData');
+
 });

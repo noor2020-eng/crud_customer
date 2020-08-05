@@ -40,7 +40,7 @@
 </html>
 <footer class=" main fixed-bottom" >
     <div class="container">
-        &copy; 2015 <strong>NOOR</strong> Admin Theme by <a href="http://laborator.co" target="_blank">Laborator</a>
+      <p class="text-center"> &copy; 2015 <strong>NOOR</strong> Admin Theme by <a href="http://laborator.co" target="_blank">Laborator</a> </p>
 
     </div>
 

@@ -3,6 +3,8 @@
 @section('content')
     <h1 class="text-center">Customers Table</h1>
     <a class="btn btn-black" href="{{route('create')}}">Add Customer</a>
+        <a class="btn btn-black" href="{{url('/tables')}}" >Show tables</a>
+
     <br>
     <table  class="table" width="100px">
         <tr>
